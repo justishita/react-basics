@@ -1,0 +1,36 @@
+react is used for complex frontend
+
+framework-strict rules (military)
+lib- itne strict rules nhi hote (chill guy)
+
+
+react through vite:
+npm create vite@latest
+
+
+manifest.json: jab hum application ko mobile me open krte h tab kaam aata hai
+
+react core lib jo saare implementations lene me kaam aati h
+react dom
+
+basically hum js ke through html lik paa rhe h (for eg ek fun bano js me usmei return krdo html tag and usko render krwalo through another js)
+
+vite jo hota h bohto strict hota h usmei components .js nhi .jsx se bante h and functions me naam capital letter se shuru hona cahiye (Chai no chai)
+
+vite me ek hii element return kr ste h so jab multiple ele krne ho we use fragment <> like:
+<>
+<p1>hi</p1>
+<h1>heya</h1>
+</>
+
+function = component .....same hiii h dono
+
+react jo bhi element h usse ek tree banane ki koshish krta h
+
+variable {imei} likhe hai and it's called expression
+
+hydration : Jab pehli baar page load hota hai, buttons aur images dikhte hain (HTML aa gaya), lekin kuch click nahi hota kyunki JavaScript ab tak load nahi hui hoti. Phir jab JavaScript load ho ke React ko HTML ke saath connect karti hai aur sab interactive ho jata hai, us process ko hydration bolte hain. aur ye fibre algorithm k through kaafi aachi hoti hai
+
+reconciliaton:do trees ko compare krta h on their diff
+it is the algo behind virtual dom
+
